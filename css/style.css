@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 500;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #43c6ac, #f8ffae);
+  height: 100vh;
+  width: 100vw;
+}
+.navbar {
+  padding: 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100 ;
+  /* height: 2vh; */
+}
+.container-fluid {
+  padding: 0;
+}
+.primary-color {
+  background-color: #69a297;
+}
+.nav-link {
+  padding: 8px 0px;
+  margin-left: 2.2rem;
+}
+.secondary-color {
+  background-color: #84b59f;
+}
+.nav-link {
+  color: #e0d8b9 !important;
+}
+.color2 {
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.hover:hover {
+  text-decoration: underline;
+  font-size: 25px;
+}
+.container {
+  /* border: 2px solid wheat; */
+  margin-top: 5rem;
+  text-align: center;
+  color: #000000;
+  /* height: auto; */
+}
+.display-4 {
+  text-decoration: underline;
+  color: #70726f;
+}
+.container .lead {
+  font-size: 2.2rem;
+  line-height: 34px;
+  height: 100vh;
+  text-align: center;
+  margin-top: 2rem;
+  color: #70726f;
+}
+.footer {
+  background: #69a297;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.footer a {
+  color: #70726f;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 2px solid #70726f;
+  transition: all 0.5s ease;
+}
+.footer a:first-child {
+  border-left: 2px solid #70726f;
+}
+.footer a:hover {
+  color: white;
+}
+
+.mycontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.contact-wrapper {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  color: #70726f;
+}
+.contact-mail {
+  color: #31a3cf;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border: none;
+  font-weight: 600;
+  /* font-family: 'Montserrat'; */
+  cursor: pointer;
+  box-shadow: 0px 3px 3px 2px #69a297;
+  margin: 1rem 0;
+  outline: none;
+}
+.facebook-btn {
+  background: #c13584;
+  color: #fff;
+}
+.github-btn {
+  background: #696969;
+  color: #fff;
+}
+.linkedin-btn {
+  background: #007bb5;
+  color: #fff;
+}
+.twitter-btn {
+  background: #1da1f2;
+  color: #fff;
+}
+.about h1 {
+  text-decoration: underline;
+}
+.card-body {
+  background-color: #69a297;
+  margin: 2px 2px;
+}
+.card {
+  background-color: #69a297;
+  color: whitesmoke;
+  margin: 20px 2px;
+  text-align: center;
+  /* z-index: -2; */
+  font-size: 1.7rem;
+}
+.card-text {
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.btn-primary:hover{
+  color: #0d6efd;
+  background:whitesmoke ;
+  border-radius: 10px;
+}
