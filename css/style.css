@@ -3,37 +3,47 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  --background-color: #fae5df;
+  --text-color: #0d0d0d;
+  --navfooter--color: #ef9273;
+
+}
+
 body {
   font-weight: 500;
   font-family: "Teko", sans-serif;
   font-size: 1.5rem;
-  background: linear-gradient(to right, #43c6ac, #f8ffae);
+  /* background: linear-gradient(to right, #43c6ac, #f8ffae); */
+  background: var(--background-color);
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 .navbar {
   padding: 0px;
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 100 ;
+  z-index: 100;
   /* height: 2vh; */
 }
 .container-fluid {
   padding: 0;
 }
 .primary-color {
-  background-color: #69a297;
+  background-color:  var( --navfooter--color);
+  
 }
 .nav-link {
   padding: 8px 0px;
   margin-left: 2.2rem;
 }
 .secondary-color {
-  background-color: #84b59f;
+  background-color: var( --text--color);
 }
 .nav-link {
-  color: #e0d8b9 !important;
+  color: var(--text-color) !important;
 }
 .color2 {
   color: rgba(0, 0, 0, 0.555);
@@ -47,7 +57,7 @@ body {
   /* border: 2px solid wheat; */
   margin-top: 5rem;
   text-align: center;
-  color: #000000;
+  color: var(--text-color);
   /* height: auto; */
 }
 .display-4 {
@@ -57,13 +67,13 @@ body {
 .container .lead {
   font-size: 2.2rem;
   line-height: 34px;
-  height: 100vh;
+  height: auto;
   text-align: center;
   margin-top: 2rem;
   color: #70726f;
 }
 .footer {
-  background: #69a297;
+  background: var( --navfooter--color);
   position: fixed;
   padding: 10px 10px 0px 10px;
   bottom: 0;
@@ -81,7 +91,7 @@ body {
   border-left: 2px solid #70726f;
 }
 .footer a:hover {
-  color: white;
+  color: #c65032;
 }
 
 .mycontainer {
@@ -103,9 +113,8 @@ body {
   display: inline-block;
   border: none;
   font-weight: 600;
-  /* font-family: 'Montserrat'; */
   cursor: pointer;
-  box-shadow: 0px 3px 3px 2px #69a297;
+  box-shadow: 0px 3px 3px 2px var( --navfooter--color);
   margin: 1rem 0;
   outline: none;
 }
@@ -129,11 +138,11 @@ body {
   text-decoration: underline;
 }
 .card-body {
-  background-color: #69a297;
+  background-color: var( --navfooter--color);
   margin: 2px 2px;
 }
 .card {
-  background-color: #69a297;
+  background-color: var( --navfooter--color);
   color: whitesmoke;
   margin: 20px 2px;
   text-align: center;
@@ -145,8 +154,8 @@ body {
   font-size: 1.7rem;
   font-weight: 500;
 }
-.btn-primary:hover{
-  color: #0d6efd;
-  background:whitesmoke ;
-  border-radius: 10px;
+.btn-primary:hover {
+  color: var(--background-color);
+  background: #c65032;
+  border-radius: 8px ;
 }
